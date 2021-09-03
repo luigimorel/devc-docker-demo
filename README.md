@@ -16,11 +16,11 @@ You can find the slides here: (Slides' link)[https://luigimorel.me/blog]
 
 2. Then, install the project dependencies
 
-```bash
+   ```bash
 
-    npm i
+   npm i
 
-```
+   ```
 
 3. Start the server
 
