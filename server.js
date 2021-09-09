@@ -9,5 +9,5 @@ app.use(express.static(path.join(__dirname, "/public/styles/main.css")));
 
 
 app.listen(process.env.PORT, () => {
-    console.log("Server is now running.");
+    console.log("Server is now running on port:" + process.env.PORT);
 });
