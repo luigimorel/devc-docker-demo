@@ -48,6 +48,6 @@ This repo contains a demo project and slides for my Facebook Developer Circles, 
    Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
    ```
 4. 
-```bash
+   ```bash
    Click Finish to launch Docker.
-```
+   ```
