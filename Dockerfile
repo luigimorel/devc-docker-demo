@@ -2,11 +2,13 @@
 FROM    node:alpine
 COPY . /app
 WORKDIR  /app
-CMD npm run serve
+COPY package.json ./
 
-# Stage 2
-FROM nginx:latest
-COPY --from=node  /app /usr/share/nginx/html
+RUN npm install 
+COPY .    .
+ENV PORT=8000
 
+EXPOSE 8000
 
+CMD ["npm run", "serve" ]
 
