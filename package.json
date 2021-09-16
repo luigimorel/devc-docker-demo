@@ -1,17 +1,20 @@
 {
-    "name": "devc-demo",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "serve": "nodemon server.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "dotenv": "^10.0.0",
-        "express": "^4.17.1",
-        "nodemon": "^2.0.12"
-    }
+  "name": "devc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "serve": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Luigi Morel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
 }
