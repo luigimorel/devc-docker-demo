@@ -6,7 +6,7 @@ Get the demo here... [DevC Demo](https://sleepy-gorge-38329.herokuapp.com/)
 
 ### Installation
 
-1. Clone the project to you account
+1. Fork the project to your account and clone using:
 
    ```bash
 
